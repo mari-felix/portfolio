@@ -34,6 +34,7 @@ main {
 
 
 .text-box1 {
+    display: flex;
     margin-top: 15%;
     font-size: 17px;
     letter-spacing: 1px;
@@ -44,8 +45,8 @@ main {
     align-items: center;
     justify-content: center;
     margin: auto;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 0%;
     left: 40%;
 }
 
@@ -80,16 +81,23 @@ main {
 }
 
 .text-box2 p {
-    position: absolute;
-
+    position: relative;
     top: 55%;
     left: 40%;
 }
 
+.my-pic {
+    width: auto;
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+    top: 15%;
+}
+
 .profile-pic {
+    display: flex;
     position: absolute;
-    top: 23%;
-    left: 23%;
+    left: 21%;
     margin: 0;
     filter:grayscale();
 }
@@ -97,26 +105,29 @@ main {
 .profile-pic:hover {
     cursor: pointer;
     animation: backwards;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     filter: none;
 }
 
 .grad {
     position: absolute;
-    top: 23%;
-    left: 21%;
+    left: 19%;
     margin: 0;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    top: 59%;
+    left: 25%;
 }
 
 .my-links {
     width: 100%;
-    justify-content: center;
-    display: inline-table ;
+    display: inline-table;
     align-items: center;
-    justify-content: center;
-    margin: auto;
-    position: absolute;
-    top: 43%;
+    margin: 0 10px;
+    position: relative;
     left: 40%;
 }
 
@@ -128,25 +139,25 @@ main {
     width: 3px;
     height: 79px;
     background: #000;
-    position: absolute;
-    top: 42%;
-    left: 56%;
+    position: relative;
+    display: inline-table;
+    margin: 0 10px;
+    top: 20px;
 }
 
 .languages-so-on {
     width: 100%;
     justify-content: center;
-    display: inline-table ;
-    align-items: center;
+    display: inline;
     justify-content: center;
-    margin: auto;
-    position: absolute;
-    top: 43%;
-    left: 57%;
+    margin: 0 10px;
+    position: relative;
+    top: 5px;
 }
 
 .languages-so-on svg {
     margin: 0 10px;
+    display: inline;
 }
 
 .meus-projetos h2 {

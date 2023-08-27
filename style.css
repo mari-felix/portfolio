@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    padding: 0 8.5%;
+    position: relative;
+}
+
+main {
+    background: linear-gradient(180deg, #E4B5F2 0%, #E4B5F2 4.17%, rgba(223, 199, 230, 0.00) 100%), linear-gradient(180deg, #9884C2 99.99%, rgba(0, 0, 0, 0.00) 100%);;
+    color: #000;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+}
+
+.logo {
+    width: 120px;
+    /* cursor: pointer; */
+    margin: auto;
+}
+
+
+.text-box1 {
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    width: 100%;
+    justify-content: center;
+    display: inline-table ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.text-box1 p {
+    font-size: 30px;
+    line-height: 80px;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.text-box1 h1 {
+    font-size: 85px;
+    line-height: 40px;
+    font-family: 'Red Rose', cursive;
+}
+
+.text-box1 h2 {
+    font-size: 50px;
+    line-height: 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-box2 {
+    color: #000;
+    text-align: justify;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.text-box2 p {
+    position: absolute;
+
+    top: 55%;
+    left: 40%;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    margin: 0;
+    filter:grayscale();
+}
+
+.profile-pic:hover {
+    cursor: pointer;
+    animation: backwards;
+    animation-duration: .5s;
+    filter: none;
+}
+
+.grad {
+    position: absolute;
+    top: 23%;
+    left: 21%;
+    margin: 0;
+}
+
+.my-links {
+    width: 100%;
+    justify-content: center;
+    display: inline-table ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 43%;
+    left: 40%;
+}
+
+.my-links svg {
+    margin: 0 10px;
+}
+
+.divider {
+    width: 3px;
+    height: 79px;
+    background: #000;
+    position: absolute;
+    top: 42%;
+    left: 56%;
+}
+
+.languages-so-on {
+    width: 100%;
+    justify-content: center;
+    display: inline-table ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 43%;
+    left: 57%;
+}
+
+.languages-so-on svg {
+    margin: 0 10px;
+}
+
+.meus-projetos h2 {
+    font-family: 'M PLUS 1', sans-serif;
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    width: 100%;
+    justify-content: center;
+    display: inline-table ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
